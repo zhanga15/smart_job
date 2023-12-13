@@ -1,0 +1,11 @@
+
+boto3==1.29.4
+PyJWT==1.6.1
+
+
+apify_client  
+pandas
+opensearch-py
+
+urllib3==1.26.18
+ 
