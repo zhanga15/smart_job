@@ -14,3 +14,4 @@ The second type of data pertains to job position information. The system incorpo
 
 
 ## AWS Reference Architecture Diagrams
+![Screenshot](smartjob.png)
