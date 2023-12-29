@@ -14,5 +14,6 @@ The second type of data pertains to job position information. The system incorpo
 
 Ultimately, both data will be run through the large language model. The matching algorithm will compare the user's info with job description and return the recommended jobs via email notifications. 
 
+
 ## AWS Reference Architecture Diagrams
 ![Screenshot](smartjob.png)
