@@ -9,9 +9,10 @@ Precision Rate: This will measure the accuracy of the match between the job posi
 
 ## Data
 
-To create this solution, two types of data are necessary. The first type is student data, where students will upload their resumes in PDF or Word format to the application. Additionally, students will provide personal information such as their name, email, phone number, preferred job positions, desired job locations, and salary expectations. Once the application collects this data, various transformations will be applied, and the student data will be stored in a cloud database.
+To create this solution, two types of data are necessary. The first type is student data, where students will upload their resumes in PDF or Word format to the application. Additionally, students will provide personal information such as their name, email, phone number, preferred job positions, desired job locations, and salary expectations. Once the application collects this data, various transformations will be applied, finally the vectorized data will be stored in a vector database.
 The second type of data pertains to job position information. The system incorporates a feature to extract job position data from various recruiting websites. It will automatically scrape the latest job postings on a daily basis and store it in ElasticSearch.
 
+Ultimately, both data will be run through the large language model. The matching algorithm will compare the user's info with job description and return the recommended jobs via email notifications. 
 
 ## AWS Reference Architecture Diagrams
 ![Screenshot](smartjob.png)
